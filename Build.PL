@@ -10,7 +10,7 @@ my $build = Module::Build->new(
     create_makefile_pl => 'passthrough',
 
     # current version of our core libraries distribution
-    dist_version => '0.01',
+    dist_version => '0.02',
 
     recursive_test_files => 1,
 

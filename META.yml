@@ -16,9 +16,12 @@ meta-spec:
   version: 1.4
 name: R-YapRI
 provides:
+  R::YapRI:
+    file: lib/R/YapRI.pm
+    version: 0.01
   R::YapRI::Base:
     file: lib/R/YapRI/Base.pm
-    version: 0.01
+    version: 0.02
   R::YapRI::Block:
     file: lib/R/YapRI/Block.pm
     version: 0.01
@@ -35,4 +38,4 @@ requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
