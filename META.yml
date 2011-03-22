@@ -3,7 +3,7 @@ abstract: 'Yet another perl R interface'
 author:
   - 'Aureliano Bombarely'
 build_requires:
-  File::Path: 2
+  File::Path: 2.07
   Image::Size: 0
   String::Random: 0
   Test::Exception: 0
@@ -42,4 +42,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/solgenomics/yapri
-version: 0.07
+version: 0.08
